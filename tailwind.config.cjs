@@ -9,6 +9,9 @@ module.exports = {
       height: {
         'pers': '35rem',
       },
+      borderRadius: {
+        exl: '48px',
+      },
       colors:{
         background: '#807ECE',
         bgcalc: '#2D2A37'
