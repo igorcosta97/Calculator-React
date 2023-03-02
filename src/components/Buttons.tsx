@@ -122,10 +122,8 @@ export function Buttons({onUpdateValue,onUpdateCalc} : any ){
             <button onClick={porcentage} value={"%"} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
                 %
             </button>
-            <button onClick={operation} value={"/"} className="w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
-                <div className="flex justify-center">
-                    <Divide size={20}/>
-                </div>
+            <button onClick={operation} value={"/"} className="flex justify-center w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
+                <Divide size={20}/>
             </button>
             <button onClick={inputNumber} value={7} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
                 7
@@ -136,10 +134,8 @@ export function Buttons({onUpdateValue,onUpdateCalc} : any ){
             <button onClick={inputNumber} value={9} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
                 9
             </button>
-            <button onClick={operation} value={"X"} className="w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
-                <div className="flex justify-center">
+            <button onClick={operation} value={"X"} className="flex justify-center w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
                     <X size={20} />
-                </div>
             </button>
             <button onClick={inputNumber} value={4} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
                 4
@@ -150,10 +146,8 @@ export function Buttons({onUpdateValue,onUpdateCalc} : any ){
             <button onClick={inputNumber} value={6} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
                 6
             </button>
-            <button onClick={operation} value={"-"} className="w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
-                <div className="flex justify-center">
-                    <Minus size={20} />
-                </div>
+            <button onClick={operation} value={"-"} className="flex justify-center w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
+                <Minus size={20} />
             </button>
             <button onClick={inputNumber} value={1} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
                 1
@@ -164,15 +158,11 @@ export function Buttons({onUpdateValue,onUpdateCalc} : any ){
             <button onClick={inputNumber} value={3} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
                 3
             </button>
-            <button onClick={operation} value={"+"} className="w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
-                <div className="flex justify-center">
-                    <Plus size={20} />
-                </div>
+            <button onClick={operation} value={"+"} className="flex justify-center w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
+                <Plus size={20} />
             </button>
-            <button onClick={invertValue} value={"+-"} className="w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
-                <div className="flex justify-center">
-                    <PlusMinus size={20} />
-                </div>
+            <button onClick={invertValue} value={"+-"} className="flex justify-center w-16 h-16 bg-purple-800 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
+                <PlusMinus size={20} />
             </button>
 
             <button onClick={inputNumber} value={0} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
@@ -181,10 +171,8 @@ export function Buttons({onUpdateValue,onUpdateCalc} : any ){
             <button onClick={inputNumber} value={"."} className="w-16 h-16 bg-zinc-800 rounded-full text-white text-xl shadow-zinc-700 drop-shadow-md shadow-inner ">
                 .
             </button>
-            <button onClick={result} value={"="} className="w-16 h-16 bg-purple-500 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
-                <div className="flex justify-center">
-                    <Equals/>
-                </div>
+            <button onClick={result} value={"="} className="flex justify-center w-16 h-16 bg-purple-500 rounded-full shadow-zinc-700 drop-shadow-md shadow-inner items-center">
+                <Equals/>
             </button>
 
         </div>
